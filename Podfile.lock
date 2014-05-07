@@ -1,0 +1,14 @@
+PODS:
+  - common-pod (0.0.1)
+
+DEPENDENCIES:
+  - common-pod (from `git@github.com:demon1105/ProjA.git`)
+
+EXTERNAL SOURCES:
+  common-pod:
+    :git: git@github.com:demon1105/ProjA.git
+
+SPEC CHECKSUMS:
+  common-pod: d4b4a65ecb079750b80ea6c8a8e6395502abd549
+
+COCOAPODS: 0.32.1
