@@ -7,6 +7,7 @@
 //
 
 #import "NTViewController.h"
+#import "NTUIConfig.h"
 
 @interface NTViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [[NTUIConfig sharedInstance] styleColor];
+
+//可以通过这种方式进行判断，从而实现不同的逻辑
+#ifdef APP_A
+    NSLog(@"This is project A");
+#endif
+    
+#ifdef APP_B
+    NSLog(@"This is project B");
+#endif
 }
 
 - (void)didReceiveMemoryWarning
