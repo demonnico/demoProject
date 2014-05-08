@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64036ABA191B19E900832F14 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 64036AB9191B19E900832F14 /* UIColor+HexColors.m */; };
+		64036ABD191B1A1100832F14 /* NTUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 64036ABC191B1A1100832F14 /* NTUIConfig.m */; };
 		64C5F33D191A24A00022658B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C5F33C191A24A00022658B /* Foundation.framework */; };
 		64C5F33F191A24A00022658B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C5F33E191A24A00022658B /* CoreGraphics.framework */; };
 		64C5F341191A24A00022658B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C5F340191A24A00022658B /* UIKit.framework */; };
 		64C5F347191A24A00022658B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F345191A24A00022658B /* InfoPlist.strings */; };
 		64C5F349191A24A00022658B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5F348191A24A00022658B /* main.m */; };
 		64C5F34D191A24A00022658B /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5F34C191A24A00022658B /* NTAppDelegate.m */; };
-		64C5F350191A24A00022658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F34E191A24A00022658B /* Main.storyboard */; };
 		64C5F353191A24A00022658B /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5F352191A24A00022658B /* NTViewController.m */; };
 		64C5F355191A24A00022658B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F354191A24A00022658B /* Images.xcassets */; };
 		64C5F35C191A24A00022658B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C5F35B191A24A00022658B /* XCTest.framework */; };
@@ -36,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		3E6283FEB65A434C828FCA0B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		64036AB8191B19E900832F14 /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColors.h"; sourceTree = "<group>"; };
+		64036AB9191B19E900832F14 /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColors.m"; sourceTree = "<group>"; };
+		64036ABB191B1A1100832F14 /* NTUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTUIConfig.h; sourceTree = "<group>"; };
+		64036ABC191B1A1100832F14 /* NTUIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTUIConfig.m; sourceTree = "<group>"; };
 		64C5F339191A24A00022658B /* demoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5F33C191A24A00022658B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64C5F33E191A24A00022658B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +50,6 @@
 		64C5F34A191A24A00022658B /* demoProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoProject-Prefix.pch"; sourceTree = "<group>"; };
 		64C5F34B191A24A00022658B /* NTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAppDelegate.h; sourceTree = "<group>"; };
 		64C5F34C191A24A00022658B /* NTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
-		64C5F34F191A24A00022658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64C5F351191A24A00022658B /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
 		64C5F352191A24A00022658B /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
 		64C5F354191A24A00022658B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -82,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64036ABE191B1A1500832F14 /* UIConfig */ = {
+			isa = PBXGroup;
+			children = (
+				64036ABB191B1A1100832F14 /* NTUIConfig.h */,
+				64036ABC191B1A1100832F14 /* NTUIConfig.m */,
+			);
+			name = UIConfig;
+			sourceTree = "<group>";
+		};
+		64036ABF191B1A1D00832F14 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				64036AB8191B19E900832F14 /* UIColor+HexColors.h */,
+				64036AB9191B19E900832F14 /* UIColor+HexColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		64C5F330191A24A00022658B = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +139,10 @@
 		64C5F342191A24A00022658B /* demoProject */ = {
 			isa = PBXGroup;
 			children = (
+				64036ABF191B1A1D00832F14 /* Categories */,
+				64036ABE191B1A1500832F14 /* UIConfig */,
 				64C5F34B191A24A00022658B /* NTAppDelegate.h */,
 				64C5F34C191A24A00022658B /* NTAppDelegate.m */,
-				64C5F34E191A24A00022658B /* Main.storyboard */,
 				64C5F351191A24A00022658B /* NTViewController.h */,
 				64C5F352191A24A00022658B /* NTViewController.m */,
 				64C5F354191A24A00022658B /* Images.xcassets */,
@@ -237,7 +260,6 @@
 			files = (
 				64C5F355191A24A00022658B /* Images.xcassets in Resources */,
 				64C5F347191A24A00022658B /* InfoPlist.strings in Resources */,
-				64C5F350191A24A00022658B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C5F353191A24A00022658B /* NTViewController.m in Sources */,
+				64036ABA191B19E900832F14 /* UIColor+HexColors.m in Sources */,
 				64C5F34D191A24A00022658B /* NTAppDelegate.m in Sources */,
+				64036ABD191B1A1100832F14 /* NTUIConfig.m in Sources */,
 				64C5F349191A24A00022658B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,14 +344,6 @@
 				64C5F346191A24A00022658B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		64C5F34E191A24A00022658B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64C5F34F191A24A00022658B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		64C5F364191A24A00022658B /* InfoPlist.strings */ = {
