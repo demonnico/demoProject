@@ -7,12 +7,16 @@
 //
 
 #import "NTAppDelegate.h"
+#import "NTViewController.h"
 
 @implementation NTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [NTViewController new];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
