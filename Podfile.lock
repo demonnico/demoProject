@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :git: git@github.com:demon1105/ProjA.git
 
 SPEC CHECKSUMS:
-  common-pod: 2d32a2232440138bc3c4dd2e9802a547ac3b1855
+  common-pod: bd191f776041c9b40dacc5605ee4511d68e116b9
 
 COCOAPODS: 0.32.1
